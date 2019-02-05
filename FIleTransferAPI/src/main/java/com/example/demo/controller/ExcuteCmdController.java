@@ -23,7 +23,7 @@ public class ExcuteCmdController {
 	
 	@RequestMapping(method = RequestMethod.POST)
 	public void excuteScriptFile() {
-		excuteCmdService.excuteCmdScript();
+		excuteCmdService.excuteCmdScript(); 
 	}
 
 }
