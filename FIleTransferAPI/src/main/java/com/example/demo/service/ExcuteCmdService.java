@@ -20,7 +20,7 @@ public class ExcuteCmdService {
 			///Users/vamshidhar/git/DemoSpringBootProject/src/main/resources/static/shellScript.sh
 			
 			cmdList.add("/bin/bash");
-			cmdList.add("/Users/vamshidhar/git/DemoSpringBootProject/src/main/resources/static/shellScript.sh");
+			cmdList.add("/Users/vamshidhar/git/FileTransferAPI/FIleTransferAPI/src/main/resources/static/shellScript.sh");
 //            cmdList.add("cd /Users/vamshidhar/dev");
 //            cmdList.add("mkdir sample");
             ProcessBuilder pb = new ProcessBuilder(cmdList);
